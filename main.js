@@ -1,7 +1,6 @@
 const globe = Globe()(document.getElementById("globeViz"))
   .globeImageUrl("//unpkg.com/three-globe/example/img/earth-dark.jpg")
-  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png")
-  .autoRotateSpeed(0.5);
+  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png");
 
 // Load your JSON
 fetch("./data.json")
