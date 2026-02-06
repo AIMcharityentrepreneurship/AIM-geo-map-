@@ -7,7 +7,7 @@ globe.pointsData([
   { lat: 40.7128, lng: -74.006, size: 0.2, color: "blue" }, // NYC
 ]);
 
-fetch("./AIM geo map - Sheet1 (1).json")
+fetch("./data.json")
   .then(res => res.json())
   .then(data => {
     globe.pointsData(data);
