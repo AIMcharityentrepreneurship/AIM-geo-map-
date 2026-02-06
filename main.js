@@ -33,3 +33,16 @@ fetch("./data.json")
   .catch(error => {
     console.error('Error loading data:', error);
   });
+
+fetch("./data.json")
+  .then(res => {
+    console.log("Fetch status:", res.status, res.statusText, "URL:", res.url);
+    if (!res.ok) throw new Error(`HTTP ${res.status} when fetching data.json`);
+    return res.json();
+  })
+  .then(data => {
+    console.log("Loaded rows:", data.length);
+    // ... rest of your code
+  })
+  .catch(err => console.error("Error loading data:", err));
+
