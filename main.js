@@ -1,6 +1,8 @@
 const globe = Globe()(document.getElementById("globeViz"))
   .globeImageUrl("//unpkg.com/three-globe/example/img/earth-dark.jpg")
-  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png");
+  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png")
+  .autoRotate(true)
+  .autoRotateSpeed(0.5);
 
 // Load your JSON
 fetch("./data.json")
@@ -17,9 +19,17 @@ fetch("./data.json")
       color: d.type === "AIM staff" ? "orange" : "dodgerblue"
     }));
 
-    globe.pointsData(points).pointLabel(d => `
-    <b>${d.name}</b><br/>
-    ${d.type}<br/>
-    ${d.country}
-  `);
+    globe
+      .pointsData(points)
+      .pointLabel(d => `
+        <b>${d.name}</b><br/>
+        ${d.type}<br/>
+        ${d.country}
+      `)
+      .pointColor('color')
+      .pointSize('size')
+      .pointAltitude(0);
+  })
+  .catch(error => {
+    console.error('Error loading data:', error);
   });
