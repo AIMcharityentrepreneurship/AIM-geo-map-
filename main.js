@@ -17,5 +17,9 @@ fetch("./data.json")
       color: d.type === "AIM staff" ? "orange" : "dodgerblue"
     }));
 
-    globe.pointsData(points);
+    globe.pointsData(points).pointLabel(d => `
+    <b>${d.name}</b><br/>
+    ${d.type}<br/>
+    ${d.country}
+  `);
   });
