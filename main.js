@@ -1,15 +1,27 @@
 const globe = Globe()(document.getElementById("globeViz"))
   .globeImageUrl("//unpkg.com/three-globe/example/img/earth-dark.jpg")
-  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png");
+  .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png")
+
+  // ✨ Atmosphere glow
+  .showAtmosphere(true)
+  .atmosphereColor("#a53247")
+  .atmosphereAltitude(0.25);
+
+// 🌍 Auto-rotate
+globe.controls().autoRotate = true;
+globe.controls().autoRotateSpeed = 0.6;
+
+// 🎬 Smooth zoom-in on load
+globe.pointOfView({ altitude: 2 }, 2000);
 
 // Load your JSON
 fetch("./data.json")
   .then(res => res.json())
   .then(data => {
-    // Map your fields to what globe.gl expects
+
     const points = data.map(d => ({
       lat: d.lat,
-      lng: d.lon,          // IMPORTANT: globe.gl uses "lng", not "lon"
+      lng: d.lon,  // globe.gl uses "lng"
       name: d.name,
       country: d.country,
       type: d.type,
@@ -26,21 +38,13 @@ fetch("./data.json")
       `)
       .pointColor('color')
       .pointSize('size')
-      .pointAltitude(0);
+
+      // 🎯 Slightly raised pins
+      .pointAltitude(0.05)
+
+      // ✨ Smooth appearance animation
+      .pointsTransitionDuration(1000);
   })
   .catch(error => {
     console.error('Error loading data:', error);
   });
-
-fetch("./data.json")
-  .then(res => {
-    console.log("Fetch status:", res.status, res.statusText, "URL:", res.url);
-    if (!res.ok) throw new Error(`HTTP ${res.status} when fetching data.json`);
-    return res.json();
-  })
-  .then(data => {
-    console.log("Loaded rows:", data.length);
-    // ... rest of your code
-  })
-  .catch(err => console.error("Error loading data:", err));
-
