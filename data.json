@@ -3,14 +3,200 @@
    "name": "Filip Murar",
    "type": "AIM staff",
    "country": "Czech Republic",
-   "lat": 49.885636,
-   "lon": 15.31965
+   "lat": "49.885636",
+   "lon": "15.31965",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
  },
  {
    "name": "Steve Thompson",
-   "type": "Founder",
+   "type": "AIM staff",
    "country": "Ireland",
-   "lat": 53.341428,
-   "lon": -6.280047
+   "lat": "53.341428",
+   "lon": "-6.280047",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Shaileen McGovern",
+   "type": "AIM staff",
+   "country": "Ireland",
+   "lat": "53.38148995",
+   "lon": "-6.591263163",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Juan Benzo",
+   "type": "AIM Staff",
+   "country": "Argentina",
+   "lat": "-38.0003",
+   "lon": "-57.5546",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Dylan Collins",
+   "type": "Visitor",
+   "country": "Canada",
+   "lat": "53.563",
+   "lon": "-131.93",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Dilan Fernando",
+   "type": "AIM Staff",
+   "country": "Melbourne, Australia",
+   "lat": "37.8136° S",
+   "lon": "144.9631° E",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Vicky Cox",
+   "type": "AIM Staff",
+   "country": "London, UK",
+   "lat": "51.5074",
+   "lon": "-0.1276",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Aidan Alexander",
+   "type": "AIM Staff",
+   "country": "Australia",
+   "lat": "-33.9055002880442000",
+   "lon": "151.1788610925970000",
+   "FIELD6": "",
+   "FIELD7": "Real colleagues give their location to 10 sig figs",
+   "FIELD8": ""
+ },
+ {
+   "name": "Crystal Lam",
+   "type": "AIM Staff",
+   "country": "China",
+   "lat": "31.1498",
+   "lon": "121.1243",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": "this is so fun! ty!"
+ },
+ {
+   "name": "Trish Kennelly",
+   "type": "AIM Staff",
+   "country": "Azores, Portugal",
+   "lat": "36.9788",
+   "lon": "25.1059",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Judith Rensing",
+   "type": "AIM Staff",
+   "country": "Duisburg, Germany",
+   "lat": "51.4344",
+   "lon": "6.7623",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Samantha Kagel",
+   "type": "AIM Staff",
+   "country": "Dallas, Texas",
+   "lat": "32.7767",
+   "lon": "96.797",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Izzy Mencattelli",
+   "type": "AIM Staff",
+   "country": "Leeds, UK",
+   "lat": "53.8008",
+   "lon": "1.5491",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Ben Williamson",
+   "type": "AIM Staff",
+   "country": "Edinburgh, UK",
+   "lat": "55.957898",
+   "lon": "-3.203141",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Sam Harvey",
+   "type": "AIM Staff",
+   "country": "New Zealand",
+   "lat": "-36.897498",
+   "lon": "174.924855",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "",
+   "type": "",
+   "country": "",
+   "lat": "",
+   "lon": "",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Brechtje van den Bosch",
+   "type": "AIM Staff",
+   "country": "Netherlands",
+   "lat": "51.541944",
+   "lon": "4.826257",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "",
+   "type": "",
+   "country": "",
+   "lat": "",
+   "lon": "",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Jacintha Baas",
+   "type": "AIM staff",
+   "country": "Netherlands",
+   "lat": "52.0945",
+   "lon": "4.9669",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
+ },
+ {
+   "name": "Emma Stoks",
+   "type": "AIM staff",
+   "country": "Barcelona, Spain ",
+   "lat": "41.390205",
+   "lon": "2.154007",
+   "FIELD6": "",
+   "FIELD7": "",
+   "FIELD8": ""
  }
 ]
