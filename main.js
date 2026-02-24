@@ -14,7 +14,7 @@ fetch("./data.json")
       country: d.country,
       type: d.type,
       size: 0.15,
-      color: d.type === "AIM staff" ? "orange" : "dodgerblue"
+      color: "#a53247"
     }));
 
     globe
